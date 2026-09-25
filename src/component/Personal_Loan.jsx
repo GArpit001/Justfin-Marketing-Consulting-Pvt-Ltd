@@ -31,7 +31,7 @@ const Personal_Loan = () => {
 
                         <div className="mt-[15px] mb-[10px]">
                             <label className="block pb-[3px]">Enter Mobile Number</label>
-                            <input type="text" value="" className="bg-[#E7E6E6] py-2 px-4 w-[50%] rounded-md focus:outline-none" placeholder="Enter Aadhar linked Mobile Number" />
+                            <input type="number"  className="bg-[#E7E6E6] py-2 px-4 w-[50%] rounded-md focus:outline-none" placeholder="Enter Aadhar linked Mobile Number" />
 
                         </div>
 
