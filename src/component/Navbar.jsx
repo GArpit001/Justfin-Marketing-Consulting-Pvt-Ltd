@@ -6,13 +6,13 @@ import "../App.css"
 const Navbar = () => {
     return (
 
-        <nav className="bg-white border border-b-1 " >
+        <nav className="bg-[#F9F9F9] border-b-1 " >
             <div className=" px-12 py-2 flex justify-between items-center">
                 <div> 
                     <img src={logo} title="JUSTFIN MARKETING & CONSULTING PVT LTD" className="w-[150px]" alt="" />
                 </div>
                 <div>
-                    <ul className="flex gap-6">
+                    <ul className="flex gap-6"> 
                         <Link className="cursor-pointer font-semibold hover:text-blue-700 hover:underline" to="/personal_loan" >Personal Loan</Link>
                         <Link className="cursor-pointer font-semibold hover:text-blue-700 hover:underline" to="/home_loan" >Home Loan</Link>
                         <Link className="cursor-pointer font-semibold hover:text-blue-700 hover:underline" to="/business_loan" >Business Loan</Link>

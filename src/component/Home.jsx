@@ -95,7 +95,7 @@ const Home = () => {
                 <h2 className='text-[#a7a7a7] font-semibold'>Paperless process at low rate</h2>
 
                 <button className='border border-white rounded-3xl text-white py-2 cursor-pointer font-semibold'>
-                  Apply Now
+                  Apply Now <i class="ri-arrow-right-s-line"></i>
                 </button>
 
               </div>
@@ -116,7 +116,7 @@ const Home = () => {
                 <h2 className='text-[#a7a7a7] font-semibold'>Instant approval at lowest interest rates</h2>
 
                 <button className='border border-white rounded-3xl text-white py-2 cursor-pointer font-semibold'>
-                  Apply Now
+                  Apply Now <i class="ri-arrow-right-s-line"></i>
                 </button>
 
               </div>
@@ -137,7 +137,7 @@ const Home = () => {
                 <h2 className='text-[#a7a7a7] font-semibold'>Instant approval at lowest interest rates</h2>
 
                 <button className='border border-white rounded-3xl text-white py-2 cursor-pointer font-semibold'>
-                  Apply Now
+                  Apply Now <i class="ri-arrow-right-s-line"></i>
                 </button>
 
               </div>
@@ -159,7 +159,7 @@ const Home = () => {
                 <h2 className='text-[#a7a7a7] font-semibold'>Instant approval at lowest interest rates</h2>
 
                 <button className='border border-white rounded-3xl text-white py-2 cursor-pointer font-semibold'>
-                  Apply Now
+                  Apply Now <i class="ri-arrow-right-s-line"></i>
                 </button>
 
               </div>

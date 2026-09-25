@@ -13,3 +13,12 @@ div ul li:hover{
     background: #303030;
 background: linear-gradient(68deg,rgba(48, 48, 48, 0.9) 9%, rgba(48, 48, 48, 1) 78%);
 }
+
+.bgPanel{
+    background : url("./assets/plbannerbg.png");
+}
+
+.bgPanelbg{
+    background : url("./assets/milsestonesbg.png");
+
+}
