@@ -10,6 +10,8 @@ import HomeLoan from "../assets/homeloanicon.svg"
 import BusinessLoan from "../assets/autoloanicon.svg"
 import OverDraft from "../assets/creditcardicon.svg"
 
+import TextType from './TextType';
+
 const Home = () => {
   
   let loan = ["Loans", "Personal Loan", "OverDraft", "Home Loan", "Business Loan"]
@@ -21,10 +23,23 @@ const Home = () => {
 
       <div className="px-26 py-18 ">
         <div>
-          <div>
+          <div className="relative">
             <h2 className="text-white text-5xl mb-7 ">Upgrade the Way</h2>
             <span className="text-white text-5xl">You Choose</span>
-            <span className="text-[#2EE5A2] text-5xl ml-3" id="loanChange" > LOAN </span>
+            {/* <span className="text-[#2EE5A2] text-5xl ml-3" id="loanChange" > LOAN </span> */}
+            <TextType 
+  text={["Personal Loan", "OverDraft", "Business Loan" , "Home Loan"]}
+  typingSpeed={75}
+  pauseDuration={1500}
+  showCursor
+  cursorCharacter="_"
+  texts={["Welcome to React Bits! Good to see you!","Build some amazing experiences!"]}
+  deletingSpeed={50}
+  variableSpeedEnabled={false}
+  variableSpeedMin={60}
+  variableSpeedMax={120}
+  cursorBlinkDuration={0.5}
+/>
 
           </div>
 
@@ -83,7 +98,7 @@ const Home = () => {
 
           <div className='flex gap-6'>
 
-            <div className='flex gap-6 border border-[#cdcdcd9a] rounded-2xl px-4 py-6 bg-[#515151bd] w-[25%]'>
+            <div className='flex gap-6 border border-[#cdcdcd9a] rounded-2xl px-4 py-6 bg-[#515151bd] w-[25%] hover:bg-[#c6c8c74f] hover:scale-105 duration-300 ease-in cards'>
 
               <div className="pt-[10px]">
                 <img src={PersonalLoan} className="w-[40px]" alt="Happy Customers" />
@@ -94,7 +109,7 @@ const Home = () => {
 
                 <h2 className='text-[#a7a7a7] font-semibold'>Paperless process at low rate</h2>
 
-                <button className='border border-white rounded-3xl text-white py-2 cursor-pointer font-semibold'>
+                <button className='cardsBtn border border-white rounded-3xl text-white py-2 cursor-pointer font-semibold'>
                   Apply Now <i class="ri-arrow-right-s-line"></i>
                 </button>
 
@@ -104,7 +119,7 @@ const Home = () => {
 
 
 
-            <div className='flex gap-6 border border-[#cdcdcd9a] rounded-2xl px-4 py-6 bg-[#515151bd] w-[25%]'>
+            <div className='flex gap-6 border border-[#cdcdcd9a] rounded-2xl px-4 py-6 bg-[#515151bd] w-[25%] hover:bg-[#c6c8c74f] hover:scale-105 duration-300 ease-in cards'>
 
               <div className="pt-[10px]">
                 <img src={HomeLoan} className="w-[40px]" alt="Happy Customers" />
@@ -115,7 +130,7 @@ const Home = () => {
 
                 <h2 className='text-[#a7a7a7] font-semibold'>Instant approval at lowest interest rates</h2>
 
-                <button className='border border-white rounded-3xl text-white py-2 cursor-pointer font-semibold'>
+                <button className='cardsBtn border border-white rounded-3xl text-white py-2 cursor-pointer font-semibold'>
                   Apply Now <i class="ri-arrow-right-s-line"></i>
                 </button>
 
@@ -125,7 +140,7 @@ const Home = () => {
 
 
 
-            <div className='flex gap-6 border border-[#cdcdcd9a] rounded-2xl px-4 py-6 bg-[#515151bd] w-[25%] '>
+            <div className='flex gap-6 border border-[#cdcdcd9a] rounded-2xl px-4 py-6 bg-[#515151bd] w-[25%] hover:bg-[#c6c8c74f] hover:scale-105 duration-300 ease-in cards'>
 
               <div className="pt-[10px]">
                 <img src={BusinessLoan} className="w-[40px]" alt="Happy Customers" />
@@ -136,7 +151,7 @@ const Home = () => {
 
                 <h2 className='text-[#a7a7a7] font-semibold'>Instant approval at lowest interest rates</h2>
 
-                <button className='border border-white rounded-3xl text-white py-2 cursor-pointer font-semibold'>
+                <button className='cardsBtn border border-white rounded-3xl text-white py-2 cursor-pointer font-semibold'>
                   Apply Now <i class="ri-arrow-right-s-line"></i>
                 </button>
 
@@ -147,7 +162,7 @@ const Home = () => {
 
 
 
-            <div className='flex gap-6 border border-[#cdcdcd9a] rounded-2xl px-4 py-6 bg-[#515151bd] w-[25%]'>
+            <div className='flex gap-6 border border-[#cdcdcd9a] rounded-2xl px-4 py-6 bg-[#515151bd] w-[25%] hover:bg-[#c6c8c74f] hover:scale-105 duration-300 ease-in cards'>
 
               <div className="pt-[10px]">
                 <img src={OverDraft} className="w-[40px]" alt="Happy Customers" />
@@ -158,7 +173,7 @@ const Home = () => {
 
                 <h2 className='text-[#a7a7a7] font-semibold'>Instant approval at lowest interest rates</h2>
 
-                <button className='border border-white rounded-3xl text-white py-2 cursor-pointer font-semibold'>
+                <button className='cardsBtn border border-white rounded-3xl text-white py-2 cursor-pointer font-semibold'>
                   Apply Now <i class="ri-arrow-right-s-line"></i>
                 </button>
 

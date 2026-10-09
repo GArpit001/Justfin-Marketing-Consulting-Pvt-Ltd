@@ -196,7 +196,7 @@ const Personal_Loan = () => {
                             </div>
                             <div>
                                 <h2>Interest Rate</h2>
-                                <p>Starting from 9.75% p.a.</p>
+                                <p>Starting from 9.99% p.a.</p>
                             </div>
 
                         </div>

@@ -1,24 +1,44 @@
+div ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: blue;
 
-
-div ul li:hover{
-    text-decoration: underline;
-        cursor : pointer;
-        color: blue;
-        
-
-    /* color : black; */
+  /* color : black; */
 }
 
-.homeBg{
-    background: #303030;
-background: linear-gradient(68deg,rgba(48, 48, 48, 0.9) 9%, rgba(48, 48, 48, 1) 78%);
+.homeBg {
+  background: #303030;
+  background: linear-gradient(
+    68deg,
+    rgba(48, 48, 48, 0.9) 9%,
+    rgba(48, 48, 48, 1) 78%
+  );
 }
 
-.bgPanel{
-    background : url("./assets/plbannerbg.png");
+.bgPanel {
+  background: url("./assets/plbannerbg.png");
 }
 
-.bgPanelbg{
-    background : url("./assets/milsestonesbg.png");
+.bgPanelbg {
+  background: url("./assets/milsestonesbg.png");
+}
 
+.text-type {
+  display: inline-block;
+  white-space: pre-wrap;
+}
+
+.text-type__cursor {
+  margin-left: 0.25rem;
+  display: inline-block;
+  opacity: 1;
+}
+
+.text-type__cursor--hidden {
+  display: none;
+}
+
+.cards:hover:has(.cardsBtn) .cardsBtn {
+  background-color: #2EE5A2;
+ 
 }
