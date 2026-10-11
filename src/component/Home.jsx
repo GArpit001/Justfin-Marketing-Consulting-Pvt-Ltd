@@ -10,16 +10,20 @@ import HomeLoan from "../assets/homeloanicon.svg"
 import BusinessLoan from "../assets/autoloanicon.svg"
 import OverDraft from "../assets/creditcardicon.svg"
 
+import HDBanner1 from "../assets/HDBanner1.avif"
+
 import TextType from './TextType';
+import Carousel from './Carousel'
+import BanksLogo from './BanksLogo'
 
 const Home = () => {
-  
+
   let loan = ["Loans", "Personal Loan", "OverDraft", "Home Loan", "Business Loan"]
 
 
 
   return (
-    <div className="homeBg h-[556px]">
+    <div className="homeBg ">
 
       <div className="px-26 py-18 ">
         <div>
@@ -27,19 +31,19 @@ const Home = () => {
             <h2 className="text-white text-5xl mb-7 ">Upgrade the Way</h2>
             <span className="text-white text-5xl">You Choose</span>
             {/* <span className="text-[#2EE5A2] text-5xl ml-3" id="loanChange" > LOAN </span> */}
-            <TextType 
-  text={["Personal Loan", "OverDraft", "Business Loan" , "Home Loan"]}
-  typingSpeed={75}
-  pauseDuration={1500}
-  showCursor
-  cursorCharacter="_"
-  texts={["Welcome to React Bits! Good to see you!","Build some amazing experiences!"]}
-  deletingSpeed={50}
-  variableSpeedEnabled={false}
-  variableSpeedMin={60}
-  variableSpeedMax={120}
-  cursorBlinkDuration={0.5}
-/>
+            <TextType
+              text={["Personal Loan", "OverDraft", "Business Loan", "Home Loan"]}
+              typingSpeed={75}
+              pauseDuration={1500}
+              showCursor
+              cursorCharacter="_"
+              texts={["Welcome to React Bits! Good to see you!", "Build some amazing experiences!"]}
+              deletingSpeed={50}
+              variableSpeedEnabled={false}
+              variableSpeedMin={60}
+              variableSpeedMax={120}
+              cursorBlinkDuration={0.5}
+            />
 
           </div>
 
@@ -183,22 +187,24 @@ const Home = () => {
 
 
 
-
-
-
           </div>
-
-
-
-
-
         </div>
-
-
-
-
-
       </div>
+
+
+      <div className="bg-white">
+
+
+            {/* <BanksLogo/> */}
+
+          <Carousel />
+      </div>
+
+
+
+
+
+
     </div>
   )
 }

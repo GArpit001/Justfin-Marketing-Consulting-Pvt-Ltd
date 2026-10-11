@@ -14,9 +14,9 @@ const Navbar = () => {
                 <div>
                     <ul className="flex gap-6"> 
                         <Link className="cursor-pointer font-semibold hover:text-blue-700 hover:underline" to="/personal_loan" >Personal Loan</Link>
-                        <Link className="cursor-pointer font-semibold hover:text-blue-700 hover:underline" to="/home_loan" >Home Loan</Link>
-                        <Link className="cursor-pointer font-semibold hover:text-blue-700 hover:underline" to="/business_loan" >Business Loan</Link>
                         <Link className="cursor-pointer font-semibold hover:text-blue-700 hover:underline" to="/over_draft" >Over Draft </Link>
+                        <Link className="cursor-pointer font-semibold hover:text-blue-700 hover:underline" to="/business_loan" >Business Loan</Link>
+                        <Link className="cursor-pointer font-semibold hover:text-blue-700 hover:underline" to="/home_loan" >Home Loan</Link>
                     </ul>
                 </div>
                 <div>
